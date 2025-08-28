@@ -3,12 +3,25 @@ Conexão Direta com Cabo Crossover
 Neste projeto, foi utilizada uma ligação direta entre dois computadores (PC0 e PC1) através de um cabo crossover.
 Esse tipo de cabo é necessário quando conectamos dispositivos iguais (por exemplo, dois PCs) sem a presença de um switch ou roteador intermediário.
 
+![Image](https://github.com/user-attachments/assets/237c1e9f-d87e-41b7-9b56-98de5cceee9d)
 
+config PC0:
+<img width="699" height="275" alt="Image" src="https://github.com/user-attachments/assets/f12ddcc6-75e2-46b7-9f0e-0eed23cbd071" />
+config PC1:
+<img width="698" height="291" alt="Image" src="https://github.com/user-attachments/assets/896481ca-b00b-4259-941f-4aa486e985ec" />
+
+O que NÃO Utilizado:
 
 DHCP: Como se trata de uma conexão direta, não há servidor DHCP disponível. Dessa forma, os endereços IP precisam ser configurados manualmente em cada máquina.
 
 Gateway: Não é necessário configurar um gateway, pois a comunicação ocorre apenas entre os dois dispositivos conectados.
 
-ICMP: Para validar a comunicação, foi utilizado o envio de PDU (Protocol Data Unit) simulando pacotes ICMP (ping). O teste confirmou o envio e recebimento correto das mensagens entre os computadores.
+O que FOI Utilizado:
 
-Esse cenário representa um exemplo simples, mas essencial, para entender como funciona a comunicação em rede ponto a ponto.
+ICMP: Para validar a comunicação, foi utilizado o envio de PDU (Protocol Data Unit) simulando pacotes ICMP (ping).
+O teste confirmou o envio e recebimento correto das mensagens entre os computadores.
+
+Endereçamento IP: Foram configurados IPs diferentes em cada computador para garantir a comunicação correta e evitar conflitos.
+
+Esse cenário representa um exemplo simples para entender como funciona a comunicação em rede ponto a ponto.
+
