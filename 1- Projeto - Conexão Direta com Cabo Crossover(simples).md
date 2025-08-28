@@ -3,12 +3,17 @@ Conexão Direta com Cabo Crossover
 Neste projeto, foi utilizada uma ligação direta entre dois computadores (PC0 e PC1) através de um cabo crossover.
 Esse tipo de cabo é necessário quando conectamos dispositivos iguais (por exemplo, dois PCs) sem a presença de um switch ou roteador intermediário.
 
-https://github.com/AKMzin/CPT--CiscoPacketTracer-/blob/main/p1-demo.gif?raw=true
+![Image](https://github.com/user-attachments/assets/237c1e9f-d87e-41b7-9b56-98de5cceee9d)
+
 
 config PC0:
+
 <img width="699" height="275" alt="Image" src="https://github.com/user-attachments/assets/f12ddcc6-75e2-46b7-9f0e-0eed23cbd071" />
+
 config PC1:
+
 <img width="698" height="291" alt="Image" src="https://github.com/user-attachments/assets/896481ca-b00b-4259-941f-4aa486e985ec" />
+
 
 O que NÃO Utilizado:
 
