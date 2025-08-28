@@ -1,0 +1,14 @@
+Conexão Direta com Cabo Crossover
+
+Neste projeto, foi utilizada uma ligação direta entre dois computadores (PC0 e PC1) através de um cabo crossover.
+Esse tipo de cabo é necessário quando conectamos dispositivos iguais (por exemplo, dois PCs) sem a presença de um switch ou roteador intermediário.
+
+
+
+DHCP: Como se trata de uma conexão direta, não há servidor DHCP disponível. Dessa forma, os endereços IP precisam ser configurados manualmente em cada máquina.
+
+Gateway: Não é necessário configurar um gateway, pois a comunicação ocorre apenas entre os dois dispositivos conectados.
+
+ICMP: Para validar a comunicação, foi utilizado o envio de PDU (Protocol Data Unit) simulando pacotes ICMP (ping). O teste confirmou o envio e recebimento correto das mensagens entre os computadores.
+
+Esse cenário representa um exemplo simples, mas essencial, para entender como funciona a comunicação em rede ponto a ponto.
