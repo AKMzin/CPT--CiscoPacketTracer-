@@ -74,7 +74,7 @@ Para abrir os arquivos de simulação (`.pkt`), você precisará do:
 
 ## 👤 Autor
 
-**AKMzin (Muriel)**
+**AKMzin (Richard David Santana Da Silva)**
 - GitHub: [@AKMzin](https://github.com/AKMzin)
 
 ---
